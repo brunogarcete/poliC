@@ -14,16 +14,16 @@ int main(void){
 void generarNumeros(int i,int j,int mult3,int mult5) {
 
 	// Declaraciones locales
-	int array[tam];
+	int numero;
 
 	//trabajo
-	scanf("%d",&array[i]);
+	scanf("%d",&numero);
 
-	if(array[i]%3 == 0){
+	if(numero%3 == 0){
 		mult3++;
 	}
 
-	if(array[i]%5 == 0){
+	if(numero%5 == 0){
 		mult5++;
 	}
 	// condicion
