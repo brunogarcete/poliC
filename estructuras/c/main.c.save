@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<math.h>
+
+float leerNumero(void);
+void esEntero(float);
+float retornaEntero (float);
+
+int main(void) {
+	esEntero(leerNumero());
+	return 0;
+}
+
+float leerNumero (void) {
+	float numero = 0;
+	scanf("%f",&numero);
+	return numero;
+}
+
+void esEntero(float numero) {
+	if(numero - retornaEntero(numero) > 0)
+}
+
