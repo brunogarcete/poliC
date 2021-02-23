@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void introducirNumerosHastaNeg();
+void introducirNumerosHastaNeg(void);
 
 int main(void) {
 	introducirNumerosHastaNeg();
