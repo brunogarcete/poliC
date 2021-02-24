@@ -10,6 +10,6 @@ int main(int argc,char **argv) {
 
 void procesarNumeros(int a,int b,int c) {
     if(c == (a+b)) {
-        printf("son iguales\n");
+        printf("iguales\n");
     }
 }
