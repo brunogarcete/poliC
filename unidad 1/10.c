@@ -15,7 +15,7 @@ void ingresarDatos(int *numeros){
     {
         scanf("%d",(numeros+i));
     }
-    proceso(numeros);    
+    proceso(numeros);
 }
 
 void proceso(int *numeros) {
